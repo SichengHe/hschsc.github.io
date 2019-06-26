@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Sicheng He</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+			<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Titillium+Web:300' type='text/css'>
+			<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arimo:400,700' type='text/css'>
+			<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<title>Sicheng He</title>
 	</head>
-	<body>
+	<body role="document">
+		<!-- custom header -->
+		<div id="header">
+		<div id="title">
+		<div id="title-wrap">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-12">
+		<h1><a href="https://scholar.google.com/citations?hl=en&user=qS7fVDAAAAAJ">Sicheng He</a></h1>
+		<h2 class="hidden-sm hidden-xs"><a href="https://umich.edu/">University of Michigan</a>  <a href="http://mdolab.engin.umich.edu/">MDOlab</a></h2>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<!-- static navbar -->
 		<nav>
-    		<ul>
-        		<li><a href="/index">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-				<!-- <li><a href="/blog">Blog</a></li> -->
-				<li><a href="/research">Research</a></li>
-				<li><a href="https://scholar.google.com/citations?user=qS7fVDAAAAAJ&hl=en&authuser=1">Google scholar</a></li>
-    		</ul>
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand hidden-lg hidden-md" href="/home">UQGroup</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="/index">Home</a></li>
+							<li><a href="/about">About</a></li>
+							<li><a href="/research">Research</a></li>
+							<li><a href="https://scholar.google.com/citations?user=qS7fVDAAAAAJ&hl=en&authuser=1">Google scholar</a></li>
+						</ul>
+					</div>
+				</div>
 		</nav>
+		<!-- main container -->
 		<div class="container">
     		<div class="blurb">
-				<h1>Hi there, I'm Sicheng He!</h1>
-				<video width="800" height="400" controls>
-					<source src="Ma85_base_d.mp4" type="video/mp4">
-				  Your browser does not support the video tag.
-				</video>
 				<p> I am a 5th year PhD student (beginning May 2015) from <a href="http://mdolab.engin.umich.edu/">MDO lab</a> in University of Michigan, Ann Arbor.
 				    I am fortunate enough to be advised by <a href="https://aero.engin.umich.edu/people/joaquim-r-r-a-martins/">Prof. Martins</a>. 
 				    I enjoy doing research in the computational science 
@@ -43,9 +74,13 @@
 							<li>Machine learning</li>
 							<li>Laminar--turbulence transition flow modeling</li>
 						</ul>
+				<video width="600" height="600" controls>
+					<source src="flutter_fine.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
 				<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
-</script>
+					src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+				</script>
 				<a href="/freetime">Read more about my fantastic free time...</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
